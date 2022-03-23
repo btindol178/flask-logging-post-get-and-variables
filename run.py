@@ -6,7 +6,7 @@ app = Flask(__name__)
  
 #logging.basicConfig(filename='record.log', level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
 
-
+#https://stackoverflow.com/questions/15974730/how-do-i-get-the-different-parts-of-a-flask-requests-url
 @app.route('/') 
 @app.route('/blogs')
 def blog():
